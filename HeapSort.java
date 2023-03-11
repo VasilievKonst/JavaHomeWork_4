@@ -47,16 +47,16 @@ public class HeapSort
             System.out.print(arr[i]+" ");
         System.out.println();
     }
-    
+
     public static void main(String args[])
     {
-        int arr[] = {12, 11, 13, 5, 6, 7};
+        int arr[] = {78, 99, 13, 80, 6, 75, 11};
         int n = arr.length;
 
         HeapSort ob = new HeapSort();
         ob.sort(arr);
 
-        System.out.println("Sorted array is");
+        System.out.println("Массив после сортировки: ");
         printArray(arr);
     }
 }
